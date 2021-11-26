@@ -1,0 +1,27 @@
+.root {
+  width: 22rem;
+  height: 28rem;
+  padding: 1rem;
+  border-radius: 10px 10px 0 0;
+  background-color: #fffafa;
+  transition: height 0.4s ease-in-out;
+}
+
+.root[aria-expanded="false"] {
+  height: 0;
+}
+
+.header {
+  display: grid;
+  padding: 1rem;
+  color: #555;
+  font-weight: 800;
+}
+
+.header:nth-last-child(2) {
+  color: #4ed34e;
+}
+
+.header:last-child {
+  color: #4ed34e;
+}
