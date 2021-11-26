@@ -1,0 +1,12 @@
+{
+  "max_reminder_limit": 3,
+  "locale": {
+    "value": "en",
+    "options": {
+      "week": {
+        "dow": 1
+      }
+    }
+  },
+  "year_range": 30
+}

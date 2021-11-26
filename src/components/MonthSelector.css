@@ -1,0 +1,37 @@
+.month {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #ff9d43;
+  cursor: pointer;
+}
+
+.month-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem 0 1rem;
+}
+
+.ghost-icon-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  font-size: 1.25rem;
+  color: #333;
+  cursor: pointer;
+  text-align: center;
+  padding: 0.4rem;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.ghost-icon-btn:hover {
+  background-color: #eee;
+}
+
+.ghost-icon-btn:active {
+  background-color: #ddd;
+}
