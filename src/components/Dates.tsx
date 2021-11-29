@@ -68,7 +68,7 @@ const Dates: React.FC<DatesProps> = ({
       {data.map((date) => (
         <div
           className="date"
-          data-today={isToday(Number(date), currentDate)}
+          data-today={date && isToday(Number(date), currentDate)}
           data-selected={
             date && isSelected(Number(date), currentDate, selectedDate)
           }
